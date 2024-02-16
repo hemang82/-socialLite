@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot form</title>
+</head>
+<body>
+<center>
+    <form action="http://localhost:2307/api/v1/auth/reset_password/<%=result%>" method="post">
+        <h1>forgot password</h1>
+        
+       <label for="">Enter New Password</label> <br> <br> <input type="text" name="password" id="" placeholder="password" style="font-size: 30px;"><br><br>
+        <input type="submit" value="submit" style="font-size: 25px; border-radius: 5px;">
+    
+    </form>
+</center>
+</body>
+</html>
